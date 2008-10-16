@@ -1,0 +1,35 @@
+<script type="text/JavaScript" src="polyline.js"></script>
+<script type="text/JavaScript">
+
+	var points = [
+	
+		// point
+		{
+			// lat
+			Latitude: 49.75121628642191,
+			
+			// lng
+			Longitude: 6.6281890869140625
+		},
+		
+		{
+			Latitude: 49.76252796566851,
+			Longitude: 6.633853912353516
+		},
+		
+		{
+			Latitude: 49.757537844205025,
+			Longitude: 6.649990081787109
+		},
+		
+		{
+			Latitude: 49.749441665946,
+			Longitude: 6.642951965332031
+		}
+	];
+	
+	document.write('<pre>');
+	document.write(encodePolyline(points));
+	document.write('</pre>');
+
+</script>
